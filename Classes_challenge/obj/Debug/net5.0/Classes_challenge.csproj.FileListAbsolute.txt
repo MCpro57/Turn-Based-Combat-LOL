@@ -1,0 +1,16 @@
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.csprojAssemblyReference.cache
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.GeneratedMSBuildEditorConfig.editorconfig
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.AssemblyInfoInputs.cache
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.AssemblyInfo.cs
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.csproj.CoreCompileInputs.cache
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.exe
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.deps.json
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.runtimeconfig.json
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.runtimeconfig.dev.json
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.dll
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\ref\Classes_challenge.dll
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\bin\Debug\net5.0\Classes_challenge.pdb
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.dll
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\ref\Classes_challenge.dll
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.pdb
+F:\Other\Microsoft Visual Studio\C#\Classes_challenge\obj\Debug\net5.0\Classes_challenge.genruntimeconfig.cache
