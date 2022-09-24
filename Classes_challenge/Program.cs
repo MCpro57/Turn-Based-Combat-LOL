@@ -11,7 +11,7 @@ namespace Classes_challenge
 
         private float maxHP;// Max HP
 
-        public float currentHP;// HP - basicDamage or HP + amouontHeal
+        public float currentHP;// HP - basicDamage or HP + amountHeal
         public float amountHeal;// The amount of the HP regained
 
         public bool skillXp;// Needed to use skill attack
@@ -42,6 +42,10 @@ namespace Classes_challenge
             else{
                 _Player1SkillXP = false;
             }
+
+            //Debug
+            //Console.WriteLine("DEBUG: " + _Player1SkillXP + ", " + Fighters.player1CountSkillXP);
+
             switch(choice1)
             {
                 case 1:// Basic Attack to Player 2
@@ -54,7 +58,7 @@ namespace Classes_challenge
                     Console.ReadKey();
                     break;
                 case 2:// Skill Attack to Player 2
-                    if(_Player1SkillXP == true || Fighters.player1CountSkillXP % 3 == 0)
+                    if(_Player1SkillXP == true)
                     {
                         _Player2CurrentHP -= _Player1SkillDamage;
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -65,6 +69,9 @@ namespace Classes_challenge
                         Console.WriteLine(_Player2UserName + " dealt a whooping 22,5 pts of damage.");
                         Console.ReadKey();
                         _Player1SkillXP = false;
+
+                        //Bugfix
+                        Fighters.player1CountSkillXP = 3;
                     }
                     else
                     {
@@ -115,6 +122,10 @@ namespace Classes_challenge
             else{
                 _Player2SkillXP = false;
             }
+
+            //Debug
+            //Console.WriteLine("DEBUG: " + _Player2SkillXP + ", " + Fighters.player2CountSkillXP);
+
             switch(choice2)
             {
                 case 1:// Basic Attack to Player 1
@@ -139,6 +150,9 @@ namespace Classes_challenge
                         Console.WriteLine(_Player1UserName + " dealt a whooping 22,5 pts of damage.");
                         Console.ReadKey();
                         _Player2SkillXP = false;
+
+                        //Bugfix
+                        Fighters.player2CountSkillXP = 3;
                     }
                     else
                     {
@@ -202,7 +216,7 @@ namespace Classes_challenge
             Console.WriteLine("\nINSTRUCTIONS:\n1. Each player starts from 100 pts of HP.\n2. Both player have their 4 action: Basic attack, Skill attack, Heal, and Rest.\n3. One of the player wins when he succeded to take down the other player.\n4. Skill attack has a cooldown for 3 turns for each player.\n5. Time duration depends lol.");
             Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("~~~~~~~~~~~~(Game begins)~~~~~~~~~~~~");
+            Console.WriteLine("~~~~~~~~~~~~(Game begins, press any key to continue)~~~~~~~~~~~~");
             Console.ReadKey();
 
             while(Player1.currentHP > 1 && Player2.currentHP > 1)
@@ -230,6 +244,11 @@ namespace Classes_challenge
                         {
                             Fighters.player1CountSkillXP++;
                         }
+                        //Bugfix
+                        if(Fighters.player1CountSkillXP > 6)
+                        {
+                            Fighters.player1CountSkillXP = 6;
+                        }
                         Fighters.Count++;
                     }
                     else// Player 2's turn
@@ -253,6 +272,11 @@ namespace Classes_challenge
                         if(choice2 != 4)
                         {
                             Fighters.player2CountSkillXP++;
+                        }
+                        //Bugfix
+                        if(Fighters.player2CountSkillXP > 6)
+                        {
+                            Fighters.player2CountSkillXP = 6;
                         }
                         Fighters.Count++;
                     }

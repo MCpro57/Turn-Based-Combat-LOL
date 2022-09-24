@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zpija\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Other\\Microsoft Visual Studio\\C#\\Classes_challenge\\Classes_challenge.csproj",
+      "projectUniqueName": "D:\\C# PROJECT\\Turn-Based-Combat-LOL-1.0.0\\Classes_challenge\\Classes_challenge.csproj",
       "projectName": "Classes_challenge",
-      "projectPath": "F:\\Other\\Microsoft Visual Studio\\C#\\Classes_challenge\\Classes_challenge.csproj",
-      "packagesPath": "C:\\Users\\zpija\\.nuget\\packages\\",
-      "outputPath": "F:\\Other\\Microsoft Visual Studio\\C#\\Classes_challenge\\obj\\",
+      "projectPath": "D:\\C# PROJECT\\Turn-Based-Combat-LOL-1.0.0\\Classes_challenge\\Classes_challenge.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "D:\\C# PROJECT\\Turn-Based-Combat-LOL-1.0.0\\Classes_challenge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zpija\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
