@@ -6,3 +6,6 @@ There might be some bugs, thx if u want to fix it
 Bugs have been FIXED!! After 2 years of forgetting the existence of this project. Oh yea make sure u have .NET 5.0 installed.
 
 ...or the recent version of .NET (.NET 6.0 at the time), with a little workaround.
+
+(11-12-2022)
+Some overhaul and additional stuff. This might be a final update. Have a good one.
