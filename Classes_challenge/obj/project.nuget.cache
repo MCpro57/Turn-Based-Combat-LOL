@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ieGMDfNIdkBOGtEytpTdsupYLl2ob7V+NilHzoez8GmxQ/N7Qce8xU/HowgT16g7KkASO9z0wUDPW6WUOQ9eyw==",
+  "dgSpecHash": "Jv5v00Wsu6jfrTFHRy1vJexlBmb/Jne2hh0rG2hBit6jvRGvFFYZBCPYFjVMqqG5tfe8BMV37p+BOIHOTwOmQw==",
   "success": true,
-  "projectFilePath": "D:\\C# PROJECT\\Turn-Based-Combat-LOL-1.0.1 - REVISED\\Classes_challenge\\Classes_challenge.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.11\\microsoft.netcore.app.runtime.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.11\\microsoft.aspnetcore.app.runtime.win-x64.6.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\C# PROJECT\\Turn-Based-Combat-LOL-1.1.0 edit\\Classes_challenge\\Classes_challenge.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -178,36 +178,53 @@ namespace Classes_challenge
         {
             while(true)
             {
+                nullCheckP1Name:
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write("Give a Player 1 a name: ");
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Fighters Player1 = new Fighters(Console.ReadLine()); //Input Player 1 name
 
+                if(string.IsNullOrWhiteSpace(Player1.userName))
+                {
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
+                    ClearCurrentConsoleLine();
+                    goto nullCheckP1Name;
+                }
+
+                nullCheckP2Name:
                 Console.ForegroundColor = ConsoleColor.Gray;                
                 Console.Write("Give a Player 2 a name: ");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Fighters Player2 = new Fighters(Console.ReadLine()); //Input Player 2 name
+
+                if(string.IsNullOrWhiteSpace(Player2.userName))
+                {
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
+                    ClearCurrentConsoleLine();
+                    goto nullCheckP2Name;
+                }
+
                 Instructions();
 
-                while(Player1.currentHP > 0.5f && Player2.currentHP > 0.5f)
+                while(Player1.currentHP > 0.1f && Player2.currentHP > 0.1f)
+                {
+                    if (Fighters.Count % 2 != 0)// Player 1's turn
                     {
-                        if (Fighters.Count % 2 != 0)// Player 1's turn
-                        {
-                            Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.WriteLine("\nPlayer 1: " + Player1.userName);
-                            Console.WriteLine("HP : " + Player1.currentHP);
-                            Menu(Fighters.player1CountSkillXP, Player1.currentHP);        
-                            ACTION(Input(), ref Player2.currentHP, ref Player1.currentHP, Player1.basicDamage, Player1.skillDamage, Player1.amountHeal, Player1.skillXp, Player2.userName, Player1.userName, ref Fighters.player1CountSkillXP);
-                        }
-                        else// Player 2's turn
-                        {
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("\nPlayer 2: " + Player2.userName);
-                            Console.WriteLine("HP : " + Player2.currentHP);
-                            Menu(Fighters.player2CountSkillXP, Player2.currentHP);
-                            ACTION(Input(), ref Player1.currentHP, ref Player2.currentHP, Player2.basicDamage, Player2.skillDamage, Player2.amountHeal, Player2.skillXp, Player1.userName, Player2.userName, ref Fighters.player2CountSkillXP);
-                        }
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("\nPlayer 1: " + Player1.userName);
+                        Console.WriteLine("HP : " + Player1.currentHP);
+                        Menu(Fighters.player1CountSkillXP, Player1.currentHP);        
+                        ACTION(Input(), ref Player2.currentHP, ref Player1.currentHP, Player1.basicDamage, Player1.skillDamage, Player1.amountHeal, Player1.skillXp, Player2.userName, Player1.userName, ref Fighters.player1CountSkillXP);
                     }
+                    else// Player 2's turn
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("\nPlayer 2: " + Player2.userName);
+                        Console.WriteLine("HP : " + Player2.currentHP);
+                        Menu(Fighters.player2CountSkillXP, Player2.currentHP);
+                        ACTION(Input(), ref Player1.currentHP, ref Player2.currentHP, Player2.basicDamage, Player2.skillDamage, Player2.amountHeal, Player2.skillXp, Player1.userName, Player2.userName, ref Fighters.player2CountSkillXP);
+                    }
+                }
                 WinCheck(Player1.currentHP, Player2.currentHP, Player1.userName, Player2.userName);
             }
         }
@@ -224,14 +241,14 @@ namespace Classes_challenge
 
         static int Input()
         {
-            nullcheck:
+            nullCheckInput:
             Console.Write("Choose your action: ");
             string _choice = Console.ReadLine();
             if(string.IsNullOrWhiteSpace(_choice))
             {
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 ClearCurrentConsoleLine();
-                goto nullcheck;
+                goto nullCheckInput;
             }
             else
             {

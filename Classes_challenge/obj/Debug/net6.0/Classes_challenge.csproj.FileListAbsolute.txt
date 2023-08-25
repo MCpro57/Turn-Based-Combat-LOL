@@ -43,3 +43,18 @@ D:\C# PROJECT\Turn-Based-Combat-LOL-1.0.1 - REVISED\Classes_challenge\obj\Debug\
 D:\C# PROJECT\Turn-Based-Combat-LOL-1.0.1 - REVISED\Classes_challenge\obj\Debug\net6.0\Classes_challenge.pdb
 D:\C# PROJECT\Turn-Based-Combat-LOL-1.0.1 - REVISED\Classes_challenge\obj\Debug\net6.0\Classes_challenge.genruntimeconfig.cache
 D:\C# PROJECT\Turn-Based-Combat-LOL-1.0.1 - REVISED\Classes_challenge\obj\Debug\net6.0\ref\Classes_challenge.dll
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\bin\Debug\net6.0\Classes_challenge.exe
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\bin\Debug\net6.0\Classes_challenge.deps.json
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\bin\Debug\net6.0\Classes_challenge.runtimeconfig.json
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\bin\Debug\net6.0\Classes_challenge.dll
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\bin\Debug\net6.0\Classes_challenge.pdb
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.csproj.AssemblyReference.cache
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.AssemblyInfoInputs.cache
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.AssemblyInfo.cs
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.csproj.CoreCompileInputs.cache
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.dll
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\refint\Classes_challenge.dll
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.pdb
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\Classes_challenge.genruntimeconfig.cache
+D:\C# PROJECT\Turn-Based-Combat-LOL-1.1.0 edit\Classes_challenge\obj\Debug\net6.0\ref\Classes_challenge.dll
