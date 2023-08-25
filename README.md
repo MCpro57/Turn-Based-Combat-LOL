@@ -9,3 +9,6 @@ Bugs have been FIXED!! After 2 years of forgetting the existence of this project
 
 (11-12-2022)
 Some overhaul and additional stuff. This might be a final update. Have a good one.
+
+(25-08-2023)
+Added player name's null check. Final update. I'll see you in the next project.
